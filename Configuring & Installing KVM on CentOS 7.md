@@ -1,4 +1,4 @@
-<span style="font-size:180%"><p align="center"> <b> Configuring & Installing KVM on CentOS 7.0  </b> </p></span>
+# Configuring & Installing KVM on CentOS 7.0 <br><br>
 # Video Guide:
 
 **WIP**
@@ -59,10 +59,10 @@ Example:
 	# virt-install --network bridge:virbr0 --name testvm1 --os-variant=centos7.0 --ram=1024 --vcpus=1 --disk path=/etc/kvmtest/images/testvm1.img,size=4 --graphics none --location=/tmp/centosimg/CentOS-7-x86_64-Minimal-1810.iso"
 
 ### **Step 11. Install VM through prompts:**
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 
 
 # **KVM Management Tasks**
