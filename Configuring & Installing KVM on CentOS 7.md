@@ -20,17 +20,17 @@ http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.
 	# systemctl start libvirtd
 	# systemctl status libvirtd
 
-###**Step 5. Make sure bridge interface is working**
+### **Step 5. Make sure bridge interface is working**
 
-###**Step 6. Enable IPv4 forwarding:**
+### **Step 6. Enable IPv4 forwarding:**
 
-###**Step 6a. Edit /usr/lib/sysctl.d/60-libvirtd.conf:**
+### **Step 6a. Edit /usr/lib/sysctl.d/60-libvirtd.conf:**
 add line:  net.ipv4.ip_forward = "1"
 
-###**Step 6b. Enable Changes:**
+### **Step 6b. Enable Changes:**
 	#/sbin/sysctl -p /usr/lib/sysctl.d/60-libvirtd.conf
 
-###**Step 7. Update the Network Configuration DHCP range for vibr0 interface**
+### **Step 7. Update the Network Configuration DHCP range for vibr0 interface**
 virsh net-edit default
 Example:
 
@@ -46,54 +46,54 @@ Example:
     </network>
 
 
-###**Step 8. Add network routing rule for Guests VM connectivity:**
+### **Step 8. Add network routing rule for Guests VM connectivity:**
 	#vi /etc/sysconfig/network-scripts/route-virbr0
 **Example:**
 192.168.101.0/24 via 192.168.101.240 dev vibr0
 
-###**Step 9. Restart**
+### **Step 9. Restart**
 	#reboot
 
-###**Step 10. Create VM**
+### **Step 10. Create VM**
 	# virt-install --network bridge:virbr0 --name testvm1 --os-variant=centos7.0 --ram=1024 --vcpus=1 --disk path=/etc/kvmtest/images/testvm1.img,size=4 --graphics none --location=/tmp/centosimg/CentOS-7-x86_64-Minimal-1810.iso"
 
-###**Step 11. Install VM through prompts:**
+### **Step 11. Install VM through prompts:**
 
-#**KVM Management Tasks**
+# **KVM Management Tasks**
 
-###**List all VMs on a host:**
+### **List all VMs on a host:**
 	# virsh list --available
 
-###**Display VM information/configuration:**
+### **Display VM information/configuration:**
 	#virsh dominfo vmname
 
-###**Stop VM:**
+### **Stop VM:**
 	#virsh shutdown vmname
 
-###**Start VM:**
+### **Start VM:**
 	#virsh start vmname
 
-###**Enable Autostart of VM:**
+### **Enable Autostart of VM:**
 	#virsh autostart vmname
 
-###**Delete Gust VM:**
+### **Delete Gust VM:**
 	#virsh shutdown vmname
 	#virsh undefine vmname
 	#virsh destroy vmname
 
-###**Suspend VM:**
+### **Suspend VM:**
 	#virsh suspend vmname
 
-###**Resume VM:**
+### **Resume VM:**
 	#virsh resume vmname
 
 ###**Cloning VM :**
 	#virsh suspend sourceVM (you can shutdown souce vm too)
 	#virt-clone --connect qemu:///system --original sourceVM --name cloneVMname
 
-###**Access VM console:**
+### **Access VM console:**
 	#virsh start vmname (if vm hasn't started)
 	#virsh console vmname
 
-###**Go back to host console without shutting down VM:**
+### **Go back to host console without shutting down VM:**
 To exit a virsh console session without shutting down the VM: **CTRL+ Shift + ]**
