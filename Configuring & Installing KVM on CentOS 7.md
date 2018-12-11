@@ -1,6 +1,6 @@
 # Video Guide:
 
-
+**WIP**
 
 # Text Guide:
 
@@ -59,6 +59,11 @@ Example:
 
 ### **Step 11. Install VM through prompts:**
 
+
+
+
+
+
 # **KVM Management Tasks**
 
 ### **List all VMs on a host:**
@@ -87,7 +92,7 @@ Example:
 ### **Resume VM:**
 	#virsh resume vmname
 
-###**Cloning VM :**
+### **Cloning VM :**
 	#virsh suspend sourceVM (you can shutdown souce vm too)
 	#virt-clone --connect qemu:///system --original sourceVM --name cloneVMname
 
