@@ -1,4 +1,4 @@
-<p align="center"> <font size="6"><b> Configuring & Installing KVM on CentOS 7.0 </font> </b> </p>
+<p align="center"> <font size="20"><b> Configuring & Installing KVM on CentOS 7.0  </b> </p></font>
 # Video Guide:
 
 **WIP**
