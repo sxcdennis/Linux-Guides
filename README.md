@@ -15,3 +15,21 @@ These are some guides for linux (mainly in centOS & RHEL)
 - [Permissions (chmod & ACL)](http://# "Permissions (chmod & ACL)")
 
 - [monitoring tools](http://# "monitoring tools")
+
+- Reset Root Password
+
+- SELinux Modes
+
+- Creating and Updating yum repositories (including updating kernels)
+
+- User Creation
+
+- Shared Folders
+
+- Activating Services
+
+- Searching files using grep and find
+
+- Using tar
+
+- Cron Jobs
