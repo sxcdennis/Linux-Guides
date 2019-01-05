@@ -32,8 +32,10 @@ add line:  net.ipv4.ip_forward = "1"
 	#/sbin/sysctl -p /usr/lib/sysctl.d/60-libvirtd.conf
 
 ### **Step 7. Update the Network Configuration DHCP range for vibr0 interface**
-virsh net-edit default
-Example:
+
+```# virsh net-edit default```
+
+**Example:**
 
     <network>
     <name> default</name>
