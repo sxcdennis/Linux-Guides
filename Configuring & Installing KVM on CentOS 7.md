@@ -41,7 +41,7 @@ Example:
     <forward mode='nat' />
     <ip address='192.168.1.1' netmask='255.255.255.0' > (change ip address to your default)
     <dhcp>
-    <range start='192.168.1.1' end='192.168.1.254' /> (Cahnge this range to yours)
+    <range start='192.168.1.1' end='192.168.1.254' /> (Change this range to yours)
     </dhcp>
     </ip>
     </network>
