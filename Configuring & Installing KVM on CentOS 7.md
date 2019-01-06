@@ -70,7 +70,7 @@ add line:  net.ipv4.ip_forward = "1"
 # **KVM Management Tasks**
 
 ### **List all VMs on a host:**
-	# virsh list --available
+	# virsh list --all
 
 ### **Display VM information/configuration:**
 	#virsh dominfo vmname
@@ -95,7 +95,7 @@ add line:  net.ipv4.ip_forward = "1"
 ### **Resume VM:**
 	#virsh resume vmname
 
-### **Cloning VM :**
+### **Cloning VM :**c
 	#virsh suspend sourceVM (you can shutdown souce vm too)
 	#virt-clone --connect qemu:///system --original sourceVM --name cloneVMname
 
