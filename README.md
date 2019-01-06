@@ -6,7 +6,7 @@ These are some guides for linux (mainly in centOS & RHEL)
 
 - [Filesystems](# "Filesystems")
 
-- [Mounting](http://# "Mounting")
+- [Mounting](# "Mounting")
 
 - [Creating & Maintaining LVM](# "Creating & Maintaining LVM")
 
