@@ -20,7 +20,7 @@ After you're finished, make sure to activate the connection.
 
 # Installing Apache
 
-1. After setting up your static IP, install httpd
+**1. After setting up your static IP, install httpd**
 
 ```
 
@@ -28,7 +28,7 @@ yum install -y httpd
 
 ```
 
-2. Start httpd
+**2. Start httpd**
 
 ```
 
@@ -37,7 +37,7 @@ yum install -y httpd
 
 ```
 
-3. Give firewall permissions
+**3. Give firewall permissions**
 
 ```
 
@@ -49,7 +49,7 @@ OR if you want firewall to have it permantely
 
 ```
 
-4. Restart firewalld
+**4. Restart firewalld**
 
 
 ```
@@ -58,12 +58,12 @@ OR if you want firewall to have it permantely
 ```
 
 
-5. Verify that you have Apache installed.
+**5. Verify that you have Apache installed.**
 
 Open a browser and type in your IP. Example:
 192.168.101.251
 
-6. Set your website to index.
+**6. Set your website to index.**
 
 ```
 
@@ -73,7 +73,7 @@ Open a browser and type in your IP. Example:
 
 **Change**:  ``Options -Indexes`` to ``Options +Indexes``
 
-7. Restart httpd
+**7. Restart httpd**
 
 ```
 
@@ -84,7 +84,7 @@ Open a browser and type in your IP. Example:
 
 # Installing PHP
 
-1. Install php and extensions
+**1. Install php and extensions**
 
 ```
 
@@ -93,7 +93,7 @@ Open a browser and type in your IP. Example:
 ```
 
 
-2. Get full list of PHP info from browser
+**2. Get full list of PHP info from browser**
 
 ```
 
@@ -107,28 +107,28 @@ View the php file on your browser. **Example** 192.168.101.251/phpinfo.php
 
 # Install MariaDB
 
-1. Install MariaDB and MariaDB-server
+**1. Install MariaDB and MariaDB-server**
 
 ```
 # yum install -y mariadb-server mariadb
 
 ```
 
-2. Start mariadb
+**2. Start mariadb**
 
 ```
 # systemctl start mariadb
 
 ```
 
-3. Secure instantiation for mariadb
+**3. Secure instantiation for mariadb**
 
 ```
 # mysql_secure_installation
 
 ```
 
-4. Test database
+**4. Test database**
 
 ```
 # mysql -u root -p
