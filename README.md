@@ -1,5 +1,6 @@
 # Linux-Guides
-These are some guides for linux (mainly in centOS & RHEL)
+
+These are some guides for Linux (mainly in centOS & RHEL)
 
 # Table of Contents
 - [Configuring & Installing KVM on CentOS 7.0 ](https://github.com/sxcdennis/Linux-Guides/blob/master/Configuring%20%26%20Installing%20KVM%20on%20CentOS%207.md "Configuring & Installing KVM on CentOS 7.0 ")
@@ -18,22 +19,22 @@ These are some guides for linux (mainly in centOS & RHEL)
 
 - [Permissions (chmod & ACL)](# "Permissions (chmod & ACL)")
 
-- [monitoring tools](# "monitoring tools")
+- [Monitoring tools](# "Monitoring tools")
 
-- Reset Root Password
+- [Reset Root Password](# "Reset Root Password")
 
-- SELinux Modes
+- [SELinux Modes](# "SELinux Modes")
 
-- Creating and Updating yum repositories (including updating kernels)
+- [Creating and Updating yum repositories (including updating kernels)](# "Creating and Updating yum repositories (including updating kernels)")
 
-- User Creation
+- [User Creation](# "User Creation")
 
-- Shared Folders
+- [Shared Folders](# "Shared Folders")
 
-- Activating Services
+- [Activating Services](# "Activating Services")
 
-- Searching files using grep and find
+- [grep and find](# "grep and find")
 
-- Using tar
+- [tar](# "tar")
 
-- Cron Jobs
+- [Cron Jobs](# "Cron Jobs")
