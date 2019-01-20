@@ -136,3 +136,7 @@ MariaDB > SHOW VARIABLES;
 MariaDB > quit
 
 ```
+
+
+
+[< Back: LAMP stack Basics](https://github.com/sxcdennis/Linux-Guides/blob/master/LAMP%20stack%20Basics.md "LAMP stack Basics") || [Next: RAID Part 1 >](https://github.com/sxcdennis/Linux-Guides/blob/master/RAID%20Part1.md "RAID Part 1")

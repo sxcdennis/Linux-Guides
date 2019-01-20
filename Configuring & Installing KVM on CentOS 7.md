@@ -33,7 +33,11 @@ add line:  net.ipv4.ip_forward = "1"
 
 ### **Step 7. Update the Network Configuration DHCP range for vibr0 interface**
 
-```# virsh net-edit default```
+```
+
+# virsh net-edit default
+
+```
 
 **Example:**
 
@@ -105,3 +109,7 @@ add line:  net.ipv4.ip_forward = "1"
 
 ### **Go back to host console without shutting down VM:**
 To exit a virsh console session without shutting down the VM: **CTRL+ Shift + ]**
+
+
+
+[< Back: Creating and Updating yum repositories (including updating kernels)](https://github.com/sxcdennis/Linux-Guides/blob/master/yum.md "Creating and Updating yum repositories including updating kernels") || [Next: LAMP stack Basics >](https://github.com/sxcdennis/Linux-Guides/blob/master/LAMP%20stack%20Basics.md "LAMP stack Basics")
