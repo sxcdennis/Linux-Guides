@@ -41,7 +41,7 @@ mdadm -E /dev/sd[b-d]
 
 # Step 2: Create RAID Partitions
 
-1. Use fdisk on both /dev/sdb and /dev/sdc and /dev/sdd
+1. Use fdisk on /dev/sdb  /dev/sdc  /dev/sdd
 
 ```
 
