@@ -56,11 +56,11 @@ mdadm --examine /dev/sd*
 
 # Step 3: Create Partition for RAIDS
 
-1. Now create partitions for both drives. **sda** and **sdb**
+1. Now create partitions for both drives. **sdb** and **sdc**
 
 ```
 
-fdisk /dev/sda
+fdisk /dev/sdb
 
 ```
 
@@ -69,7 +69,7 @@ fdisk /dev/sda
 - Next select partition number
 - Use default values
 
-![fdisk1](https://github.com/sxcdennis/Linux-Guides/blob/master/images/fdisk1.png?raw=true)
+![fdisk1](https://github.com/sxcdennis/Linux-Guides/blob/master/images/fdisk3.png?raw=true)
 
 Next create a auto RAID partition.
 
@@ -78,9 +78,9 @@ Next create a auto RAID partition.
 - Push *p* to print changes
 - Use *w* to write changes
 
-![fdisk2](https://github.com/sxcdennis/Linux-Guides/blob/master/images/fdisk2.png?raw=true)
+![fdisk2](https://github.com/sxcdennis/Linux-Guides/blob/master/images/fdisk4.png?raw=true)
 
-**DO THE SAME STEPS FOR 2nd DRIVE (sdb)**
+**DO THE SAME STEPS FOR 2nd DRIVE (sdc)**
 
 
 2. Verify partitions using mdadm
@@ -88,6 +88,7 @@ Next create a auto RAID partition.
 ```
 
 mdadm --examine /dev/sd*
+
 
 ```
 
