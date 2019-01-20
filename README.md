@@ -59,3 +59,5 @@ These are some guides for Linux (mainly in centOS & RHEL)
 - [RAID Part 9: How to Manage Software RAID’s in Linux with ‘Mdadm’ Tool](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part9.md "RAID Part 9")
 
 - [Nginx](https://github.com/sxcdennis/Linux-Guides/blob/master/nginx.md "nginx")
+
+- [Mail: Postfix, Dovecot, Squirrelmail](https://github.com/sxcdennis/Linux-Guides/blob/master/mail.md "mail")
