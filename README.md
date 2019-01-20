@@ -40,22 +40,22 @@ These are some guides for Linux (mainly in centOS & RHEL)
 
 - [LAMP stack Installation](https://github.com/sxcdennis/Linux-Guides/blob/master/LAMP%20stack%20Installation.md "LAMP stack Installation")
 
-- [RAID Part 1](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part1.md "RAID Part 1")
+- [RAID Part 1: Introduction to RAID, Concepts of RAID and RAID Levels/Types](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part1.md "RAID Part 1")
 
-- [RAID Part 2](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part2.md "RAID Part 2")
+- [RAID Part 2: RAID0 : Installation and Configuration (Striping)](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part2.md "RAID Part 2")
 
-- [RAID Part 3](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part3.md "RAID Part 3")
+- [RAID Part 3: RAID1 : Installation and Configuration (Mirror)](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part3.md "RAID Part 3")
 
-- [RAID Part 4](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part4.md "RAID Part 4")
+- [RAID Part 4: RAID5 : Installation and Configuration (Single Distributed Parity)](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part4.md "RAID Part 4")
 
-- [RAID Part 5](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part5.md "RAID Part 5")
+- [RAID Part 5: RAID6 : Installation and Configuration ( Double Distributed Parity)](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part5.md "RAID Part 5")
 
-- [RAID Part 6](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part6.md "RAID Part 6")
+- [RAID Part 6: RAID10 : Installation and Configuration (Mirror & Stripe)](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part6.md "RAID Part 6")
 
-- [RAID Part 7](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part7.md "RAID Part 7")
+- [RAID Part 7: Growing an Existing RAID Array and Removing Failed Disks in RAID](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part7.md "RAID Part 7")
 
-- [RAID Part 8](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part8.md "RAID Part 8")
+- [RAID Part 8: How to Recover Data and Rebuild Failed Software RAID’s](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part8.md "RAID Part 8")
 
-- [RAID Part 9](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part9.md "RAID Part 9")
+- [RAID Part 9: How to Manage Software RAID’s in Linux with ‘Mdadm’ Tool](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part9.md "RAID Part 9")
 
 - [Nginx](https://github.com/sxcdennis/Linux-Guides/blob/master/nginx.md "nginx")
