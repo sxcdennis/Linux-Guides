@@ -1,6 +1,6 @@
 # RAID6 : Installation and Configuration  (Double Distributed Parity)
 
-
+RAID6 is basically RAID5 but you need 1 more disk and its a bit slower. RAID6 offers being able to recover 2 disks instead of 1. 
 
 **My VM Setup**
 
