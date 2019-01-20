@@ -11,15 +11,15 @@ This guide will be split into 9 different parts (This being part 1):
 
 **Part 1:** Introduction to RAID, Concepts of RAID and RAID Levels/Types
 
-**Part 2:** How to setup RAID0 (Stripe)
+**Part 2:** RAID0 : Installation and Configuration  (Striping)
 
-**Part 3:** How to setup RAID1 (Mirror)
+**Part 3:** RAID1 : Installation and Configuration  (Mirror)
 
-**Part 4:** How to setup RAID5 (Striping with Distributed Parity)
+**Part 4:** RAID5 : Installation and Configuration  (Single Distributed Parity)
 
-**Part 5** How to setup RAID6 (Striping with Double Distributed Parity)
+**Part 5** RAID6 : Installation and Configuration  ( Double Distributed Parity)
 
-**Part 6:** Setting Up RAID 10 or 1+0 (Nested)
+**Part 6:** RAID10 : Installation and Configuration (Mirror & Stripe)
 
 **Part 7:** Growing an Existing RAID Array and Removing Failed Disks in RAID
 
@@ -64,13 +64,13 @@ Size of data that can be minimum of 4KB and more.
 
 **RAID0**  Uses Striping  
 **RAID1** Uses Mirroring
-**RAID5** Uses Single Disk Parity
-**RAID6** Use double disk Parity
+**RAID5** Uses Singe Distributed Parity
+**RAID6** Uses Double Distributed Parity
 **RAID10** Combine of Mirror and Stripe
 
 
 
-# RAID 0 (or) Striping
+# RAID 0 or Striping
 
 Striping has good performance. In RAID 0 the data will be written to disk using shared method. Half content will be written to one disk and the other half written to the other.
 
@@ -85,7 +85,7 @@ In this type of situation, if one of the drives fails we lose all of our data be
 - Zero Fault Tolerance (Data will be loss if one breaks)
 - Write & Reading quicker
 
-# RAID 1 (or) Mirroring
+# RAID 1 or Mirroring
 
 RAID1 uses mirroring. Mirroring can have good performance. It essentially makes a copy of the same data. For example we have two 1TB hard drives making a total of 2TB. With RAID0, we can only use/see 1TB because of the mirroring.
 
@@ -99,7 +99,7 @@ If one of the disks fail, we can reproduce data by replacing with a new disk.
 - Reading Performance is fine
 
 
-# RAID 5 (or) Distributed Parity
+# RAID 5 or Distributed Parity
 
 RAID5 is mostly used in enterprise levels. RAID5 has parity distributed across all disks.
 
@@ -133,7 +133,7 @@ RAID5 can survive only 1 drive failure. If more than 1 drive fails it will cause
 
 
 
-# RAID 10 (or) Mirror & Stripe
+# RAID 10 or Mirror & Stripe
 
 RAID10 can be called as 1+0 or 0+1. This will be doing both Mirror & Striping. Mirror will be first and stripe will be second in RAID 10.  RAID 10 requires minimum of 4 hard disks.
 
