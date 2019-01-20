@@ -11,15 +11,15 @@ This guide will be split into 9 different parts (This being part 1):
 
 **Part 1:** Introduction to RAID, Concepts of RAID and RAID Levels/Types
 
-**Part 2:** How to setup RAID0 (Stripe) in Linux
+**Part 2:** How to setup RAID0 (Stripe)
 
-**Part 3:** How to setup RAID1 (Mirror) in Linux
+**Part 3:** How to setup RAID1 (Mirror)
 
-**Part 4:** How to setup RAID5 (Striping with Distributed Parity) in Linux
+**Part 4:** How to setup RAID5 (Striping with Distributed Parity)
 
-**Part 5** How to setup RAID6 (Striping with Double Distributed Parity) in Linux
+**Part 5** How to setup RAID6 (Striping with Double Distributed Parity)
 
-**Part 6:** Setting Up RAID 10 or 1+0 (Nested) in Linux
+**Part 6:** Setting Up RAID 10 or 1+0 (Nested)
 
 **Part 7:** Growing an Existing RAID Array and Removing Failed Disks in RAID
 
@@ -60,7 +60,7 @@ A spare drive in server that can automatically replace the failed drive.
 Size of data that can be minimum of 4KB and more.
 
 
-#Common RAID Levels/Types
+# Common RAID Levels/Types
 
 **RAID0**  Uses Striping  
 **RAID1** Uses Mirroring
