@@ -46,7 +46,7 @@ These are some guides for Linux (mainly in centOS & RHEL)
 
 - [RAID Part 3](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part3.md "RAID Part 3")
 
-- [RAID Part 4](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part1.md "RAID Part 4")
+- [RAID Part 4](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part4.md "RAID Part 4")
 
 - [RAID Part 5](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part5.md "RAID Part 5")
 
