@@ -56,9 +56,6 @@ Parity is a method to regenerate lost content from saved information. Basically 
 
 A spare drive in server that can automatically replace the failed drive.
 
-**Chunks**
-Size of data that can be minimum of 4KB and more.
-
 
 # Common RAID Levels/Types
 
@@ -128,9 +125,6 @@ RAID5 can survive only 1 drive failure. If more than 1 drive fails it will cause
 - Full Fault tolerance
 - Parity distributed across all drives
 - Can survive 2 drive failures
-
-
-
 
 
 # RAID 10 or Mirror & Stripe
