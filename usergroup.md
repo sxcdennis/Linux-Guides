@@ -208,17 +208,16 @@ delgroup [options] group
 
 # usermod
 
+usermod has the options of modifying users with nearly the same options as useradd.
+
 **Syntax**
 
-
 ```
-
 
 usermod [options] USERNAME
 
 
 ```
-
 
 **Common options**
 
