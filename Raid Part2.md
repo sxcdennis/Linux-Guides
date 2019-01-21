@@ -203,12 +203,14 @@ mount -av
 
 1. Finally, save raid configurations to one of the files to keep configuration for future use.
 
+
 ```
 
 mdadm -Esv >> /etc/mdadm.conf
 cat /etc/mdadm.conf
 
 ```
+
 
 ![mdadmconfig](https://github.com/sxcdennis/Linux-Guides/blob/master/images/mdadmconfig.png?raw=true)
 
