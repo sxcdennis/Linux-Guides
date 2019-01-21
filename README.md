@@ -56,7 +56,7 @@ These are some guides for Linux (mainly in centOS & RHEL)
 
 - [RAID Part 8: How to Recover Data and Rebuild Failed Software RAID’s](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part8.md "RAID Part 8")
 
-- [RAID Part 9: How to Manage Software RAID’s in Linux with ‘Mdadm’ Tool](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part9.md "RAID Part 9")
+- [RAID Part 9: mdadm Tool usage](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part9.md "RAID Part 9")
 
 - [Nginx](https://github.com/sxcdennis/Linux-Guides/blob/master/nginx.md "nginx")
 

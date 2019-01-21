@@ -25,7 +25,7 @@ This guide will be split into 9 different parts (This being part 1):
 
 **Part 8:** How to Recover Data and Rebuild Failed Software RAID’s
 
-**Part 9:** How to Manage Software RAID’s in Linux with ‘Mdadm’ Tool
+**Part 9:** mdadm tool usage
 
 # Hardware RAID and Software RAID
 

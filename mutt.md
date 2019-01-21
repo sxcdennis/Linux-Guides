@@ -54,7 +54,7 @@ mutt -s "Subject" emailname@email.com
 
 ```
 
-**Terminal Controls: **
+**Terminal Controls:**
 
 - **t** Change recipient email address
 - **c** Change Cc address
