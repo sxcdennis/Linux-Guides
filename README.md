@@ -24,9 +24,9 @@ These are some guides for Linux (mainly in centOS & RHEL)
 
 - [SELinux Modes](https://github.com/sxcdennis/Linux-Guides/blob/master/selinux.md "SELinux Modes")
 
-- [Filesystems](https://github.com/sxcdennis/Linux-Guides/blob/master/filesystems.md "Filesystems")
-
 - [Partitions](https://github.com/sxcdennis/Linux-Guides/blob/master/partitions.md "Partitions")
+
+- [Filesystems](https://github.com/sxcdennis/Linux-Guides/blob/master/filesystems.md "Filesystems")
 
 - [Mounting](https://github.com/sxcdennis/Linux-Guides/blob/master/mounting.md "Mounting")
 

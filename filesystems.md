@@ -1,4 +1,4 @@
 # Filesystems
 
 
-[< Back: SELinux Modes](https://github.com/sxcdennis/Linux-Guides/blob/master/selinux.md "SELinux Modes") || [Next: Partitions >](https://github.com/sxcdennis/Linux-Guides/blob/master/partitions.md "Partitions")
+ [< Back: Partitions](https://github.com/sxcdennis/Linux-Guides/blob/master/partitions.md "Partitions") || [Next: Mounting >](https://github.com/sxcdennis/Linux-Guides/blob/master/mounting.md "Mounting")
