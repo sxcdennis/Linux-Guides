@@ -75,4 +75,4 @@ Server block (virtual hosts) configurations can be added in: **/etc/nginx/conf.d
 
 The default server document root directory (contains web files): **/usr/share/nginx/html**
 
-[<Back: RAID Part 9](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part9.md "RAID Part 9") || [Next: Mail: Postfix, Dovecot, Squirrelmail >](https://github.com/sxcdennis/Linux-Guides/blob/master/mail.md "mail")
+[<Back: RAID Part 9](https://github.com/sxcdennis/Linux-Guides/blob/master/Raid%20Part9.md "RAID Part 9") || [Next: Mutt >](https://github.com/sxcdennis/Linux-Guides/blob/master/mutt.md "mutt")

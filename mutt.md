@@ -108,4 +108,4 @@ set realname = "Realname of the user"
 
 
 
-[< Back: Mail: Postfix, Dovecot, Squirrelmail](https://github.com/sxcdennis/Linux-Guides/blob/master/mail.md "mail")
+[< Back: Nginx](https://github.com/sxcdennis/Linux-Guides/blob/master/nginx.md "nginx") || [Next: dns >](https://github.com/sxcdennis/Linux-Guides/blob/master/dns.md "dns")

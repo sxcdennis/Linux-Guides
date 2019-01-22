@@ -58,6 +58,6 @@ These are some guides for Linux (mainly in centOS & RHEL)
 
 - [Nginx](https://github.com/sxcdennis/Linux-Guides/blob/master/nginx.md "nginx")
 
-- [Mail: Postfix, Dovecot, Squirrelmail](https://github.com/sxcdennis/Linux-Guides/blob/master/mail.md "mail")
-
 - [Mutt](https://github.com/sxcdennis/Linux-Guides/blob/master/mutt.md "mutt")
+
+- [dns](https://github.com/sxcdennis/Linux-Guides/blob/master/dns.md "dns")
