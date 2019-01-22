@@ -21,7 +21,7 @@
 
 **update** Updates all or one package on your system
 
-**update-to** Updates to a particular verison
+**update-to** Updates to a particular version
 
 **upgrade** Update packages taking obsoletes into account
 
@@ -74,7 +74,7 @@
 
 
 
-# Installing Custom repositories 
+# Installing Custom repositories
 
 1. To install custom repositories with yum you must edit or create a **.repo** fine in  **/etc/yum.repos.d/**
 And add contents to it:
