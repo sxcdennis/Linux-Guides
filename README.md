@@ -12,7 +12,7 @@ These are some guides for Linux (mainly in centOS & RHEL)
 
 - [tar](https://github.com/sxcdennis/Linux-Guides/blob/master/tar.md "tar")
 
-- [Permissions (chmod & ACL)](https://github.com/sxcdennis/Linux-Guides/blob/master/chmodacl.md "Permissions chmod & ACL")
+- [Permissions: chmod, chown, chgrp & setfacl](https://github.com/sxcdennis/Linux-Guides/blob/master/chmodacl.md "Permissions: chmod, chgrp & setfacl")
 
 - [Cron Jobs](https://github.com/sxcdennis/Linux-Guides/blob/master/cronjobs.md "Cron Jobs")
 
