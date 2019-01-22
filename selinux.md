@@ -1,6 +1,6 @@
 # SELinux modes
 
-SELinux runs in one of three modes (or states).
+SELinux runs in one of three modes or states.
 
 **Permissive**
 
@@ -17,9 +17,13 @@ SELinux does not enforce a security policy because no policy is loaded in the ke
 # Commands for SELinux
 
 **sestatus :** Gets current SELinux Status
+
 **setenforce 0 :** Sets current mode to permissive. (Does not apply permanently you must edit config file)
+
 **setenforce 1 :** Sets current mode to enforcing. (Does not apply permanently you must edit config file)
+
 **setenforce enforcing :** Sets current mode to enforcing. (Does not apply permanently you must edit config file)
+
 **setenforce permissive :** Sets current mode to permissive. (Does not apply permanently you must edit config file)
 
 
