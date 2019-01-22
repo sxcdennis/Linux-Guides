@@ -112,4 +112,4 @@ To exit a virsh console session without shutting down the VM: **CTRL+ Shift + ]*
 
 
 
-[< Back: Creating and Updating yum repositories (including updating kernels)](https://github.com/sxcdennis/Linux-Guides/blob/master/yum.md "Creating and Updating yum repositories including updating kernels") || [Next: LAMP stack Basics >](https://github.com/sxcdennis/Linux-Guides/blob/master/LAMP%20stack%20Basics.md "LAMP stack Basics")
+[< Back: Creating and Updating yum repositories (including updating kernels)](https://github.com/sxcdennis/Linux-Guides/blob/master/yum.md "Creating and Updating yum repositories including updating kernels") || [Next: LAMP stack Installation >](https://github.com/sxcdennis/Linux-Guides/blob/master/LAMP%20stack%20Installation.md "LAMP stack Installation")
