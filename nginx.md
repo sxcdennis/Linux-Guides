@@ -51,7 +51,13 @@ firewall-cmd --reload
 Now you can verify Nginx server by going to the following URL, a default nginx page will be shown.
 
 ```
-http://YOUR_SERVER_NAME or http://your_sever_ip
+
+http://YOUR_SERVER_NAME
+
+OR
+
+http://your_sever_ip
+
 
 ```
 
