@@ -334,7 +334,7 @@ setfacl -m u:Marry:- test.txt
 
 ```
 
-setfacl -m u:Devs:rw /home/scripts
+setfacl -m u:devs:rw /home/scripts
 
 
 ```
