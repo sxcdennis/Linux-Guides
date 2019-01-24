@@ -27,7 +27,7 @@ tar [options] [files/directories]
 **j,--bzip2** further compress archive to bzip2
 
 
-# Exampels
+# Examples
 
 
 ## Example 1: Create tar
