@@ -173,7 +173,10 @@ umount /dev/sdd1
 
 2. Use **fdisk** on drive to delete partition table
 
+```
+fdisk /dev/sdd1
 
+```
 
 
 3. Re-create partition table with extended space

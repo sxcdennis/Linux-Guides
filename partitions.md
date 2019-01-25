@@ -46,7 +46,7 @@ fdisk /dev/sdb
 
 ![part2](https://github.com/sxcdennis/Linux-Guides/blob/master/images/part2.png?raw=true)
 
-4. Choose the size of your block. Choosing nothing will but your block at max size.  Push P to print partition table.
+4. Choose the size of your block. Choosing nothing will but your block at max size.  Push P to print partition table
 
 ![part3](https://github.com/sxcdennis/Linux-Guides/blob/master/images/part3.png?raw=true)
 
