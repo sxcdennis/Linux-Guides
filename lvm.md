@@ -224,7 +224,7 @@ mount -a
 
 ### Steps to reduce logical volume
 
-1. Use **lvresize -L -Xsize volumegroup/logicalvol** to reduce  or **lvreduce -L size /lv/dir**
+1. Use **lvresize -L -Xsize --resizefs volumegroup/logicalvol** to reduce  or **lvreduce -L size /lv/dir**
 2. Mount the filesystem.
 
 
@@ -232,7 +232,7 @@ mount -a
 
 
 
-1. Use  **lvresize -L -2G volumegroup01/home**  
+1. Use  **lvresize -L -2G --resizefs volumegroup01/home**  
 
 
 ![lvm13](https://github.com/sxcdennis/Linux-Guides/blob/master/images/lvm13.png?raw=true)
