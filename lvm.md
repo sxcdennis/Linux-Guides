@@ -149,7 +149,7 @@ df -h
 
 ## Extending and Reducing Logical volumes
 
-To extend a logical volumes you use the command **lvextend** but there's a process to do this. To reduce (**lvreduce**) a logical volume there's also a process to do it.
+The traditional way too extend a logical volumes you use the command **lvextend** but there's a process to do this. To reduce (**lvreduce**) a logical volume there's also a process to do it. The better, more efficient way to do this is **lvresize** with the **-L and --resziefs** options.
 
 ### Steps to extend logical volume.
 
@@ -228,7 +228,7 @@ mount -a
 2. Mount the filesystem.
 
 
-## Example of reducing logcial volume
+## Example of reducing logical volume
 
 
 

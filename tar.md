@@ -10,20 +10,30 @@ tar [options] [files/directories]
 
 ```
 
-
-**Common Options**
+###Common Options
 
 **--delete**: Delete from archive
+
 **-r, --append**: append files to end of an archive
+
 **-t, --list**: list contents of an archive
+
 **--test-label** test the archive volume label and exit
+
 **-u, --update** only append files newer than copy in arhive
+
 **-x,--extract** extract files from an archive
+
 **-C,--directory=DIR** change to directory DIR
+
 **-f, --file=ARCHIVE** use archive file or device ARCHIVE
+
 **-p, --preserve-permissions** preserve security permissions of files  
+
 **-v, --verbose** verbosely list files
+
 **-z,--gzip** further compress archive through gzip
+
 **j,--bzip2** further compress archive to bzip2
 
 
