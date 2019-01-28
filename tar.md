@@ -10,7 +10,7 @@ tar [options] [files/directories]
 
 ```
 
-###Common Options
+### Common Options
 
 **--delete**: Delete from archive
 

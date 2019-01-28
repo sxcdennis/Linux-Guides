@@ -8,15 +8,22 @@ There are two main installation procedures. One that assumes you don't have a DN
 
 ## Installing FreeIPA Server with DNS
 
-**My VM Specs:**
+### My VM Specs
 
 **OS:** CentOS 7
+
 **RAM:** 4GB
+
 **Hard Drive:** 40GB
+
 **Address:** 192.168.101.137/24
+
 **Gateway:** 192.168.101.2
+
 **DNS server 1:** 8.8.8.8
+
 **DNS Server 2:** 8.8.4.4
+
 **Hostname:** sxc.dennis.local
 
 
@@ -41,7 +48,9 @@ nmtui
 ![freeipa2](https://github.com/sxcdennis/Linux-Guides/blob/master/images/freeipa2.png?raw=true)
 
 
-**2b.** Update dbus and reboot **Note:** This seems to be a bug fix for dbus not working while installing for FreeIPA. Typically you get an error that states: ``'/bin/systemctl start certmonger.service' returned non-zero exit status 1``
+**2b.** Update dbus and reboot
+
+**Note:** This seems to be a bug fix for dbus not working while installing for FreeIPA. Typically you get an error that states: ``'/bin/systemctl start certmonger.service' returned non-zero exit status 1``
 
 
 ```
@@ -120,15 +129,22 @@ ipa passwd user Changes user password
 
 ## Installing Free IPA on Client
 
-**My VM Specs:**
+### My VM Specs
 
 **OS:** CentOS 7
+
 **RAM:** 4GB
+
 **Hard Drive:** 40GB
+
 **Address:** 192.168.101.134/24
+
 **Gateway:** 192.168.101.2
+
 **DNS server 1:** 8.8.8.8
+
 **DNS Server 2:** 8.8.4.4
+
 **Hostname:** sysadmin.dennis.local
 
 
