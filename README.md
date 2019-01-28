@@ -61,3 +61,5 @@ These are some guides for Linux (mainly in centOS & RHEL)
 - [Mutt](https://github.com/sxcdennis/Linux-Guides/blob/master/mutt.md "mutt")
 
 - [dns](https://github.com/sxcdennis/Linux-Guides/blob/master/dns.md "dns")
+
+- [freeipa](https://github.com/sxcdennis/Linux-Guides/blob/master/freeipa.md "freeipa")
