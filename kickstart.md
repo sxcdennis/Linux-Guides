@@ -5,7 +5,7 @@
 
 # Prerequisites:
 
-- Set up PXE Network Boot Server: [Click Here](https://github.com/sxcdennis/Linux-Guides/blob/master/pxe.md)
+- Set up PXE Network Boot Server: [Click Here](https://github.com/sxcdennis/Linux-Guides/blob/master/pxe.md "Clickhere")
 
 
 
