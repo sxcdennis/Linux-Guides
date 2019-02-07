@@ -110,21 +110,24 @@ View the php file on your browser. **Example** 192.168.101.251/phpinfo.php
 **1. Install MariaDB and MariaDB-server**
 
 ```
-# yum install -y mariadb-server mariadb
+
+yum install -y mariadb-server mariadb
 
 ```
 
 **2. Start mariadb**
 
 ```
-# systemctl start mariadb
 
+systemctl start mariadb
+systemctl enable mariadb
 ```
 
 **3. Secure instantiation for mariadb**
 
 ```
-# mysql_secure_installation
+
+mysql_secure_installation
 
 ```
 
