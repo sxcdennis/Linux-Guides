@@ -173,4 +173,4 @@ ipa-client-install
 
 ```
 
-[< Back: dns](https://github.com/sxcdennis/Linux-Guides/blob/master/dns.md "dns") ||
+[< Back: dns](https://github.com/sxcdennis/Linux-Guides/blob/master/dns.md "dns") ||[Next: mysql >](https://github.com/sxcdennis/Linux-Guides/blob/master/mysql.md "mysql")

@@ -124,7 +124,7 @@ flush privileges;
 
 The previous example will also create the database **databasename** if it hasn't been created.
 
-5. We now have two users we can log into: **newuser** and **testuser**. We'll try **testuser**
+**5.** We now have two users we can log into: **newuser** and **testuser**. We'll try **testuser**
 
 ```
 
@@ -133,7 +133,7 @@ mysql -p -u testuser1
 
 ```
 
-6. Show databases
+**6.** Show databases
 
 ```
 
@@ -143,7 +143,7 @@ show databases;
 
 ![mysql2](https://github.com/sxcdennis/Linux-Guides/blob/master/images/mysql2.png?raw=true)
 
-7. Now we can go into the database **test**
+**7.** Now we can go into the database **test**
 
 ```
 
@@ -153,9 +153,9 @@ use test
 
 
 
-8.  Creating a table
+**8.**  Creating a table
 
-Syntax:
+**Syntax**
 
 ```
 
@@ -188,7 +188,7 @@ create table loans (name VARCHAR(45), address VARCHAR(45), amount VARCHAR(20));
 
 ```
 
-9. Now we can see tables
+**9.** Now we can see tables
 
 ```
 
@@ -199,7 +199,7 @@ show tables;
 ![mysql3](https://github.com/sxcdennis/Linux-Guides/blob/master/images/mysql3.png?raw=true)
 
 
-10. You can see the description of the table by using
+**10.** You can see the description of the table by using
 
 ```
 
@@ -219,7 +219,7 @@ desc tablename;
 To backup a database we use **mysqldump**
 
 
-**Typical Syntax**
+**Typical **Syntax****
 
 ```
 
@@ -345,7 +345,7 @@ mysql -u root -p test
 
 You can add data to the tables'(**loans**) columns by using **insert**
 
-**Typical Syntax:**
+**Typical Syntax**
 
 ```
 
@@ -389,9 +389,9 @@ As you can see in example 2, you can insert more than one row at a time.
 
 ## Selection
 
-You can read the database by using **select** . The syntax for select can be quite long but we'll go over a simple version of it.
+You can read the database by using **select** . The **Syntax** for select can be quite long but we'll go over a simple version of it.
 
-**Simple Syntax**
+**Simple **Syntax****
 
 `select [column] [FROM table] [WHERE where_condition] [ORDER BY column ASC|DESC]`
 
@@ -450,10 +450,74 @@ select amount from loans order by amount ASC;
 select * from loans where name= 'Bob';
 
 ```
+
 ![mysql12](https://github.com/sxcdennis/Linux-Guides/blob/master/images/mysql12.png?raw=true)
 
 ## Update/ Replace data
 
+**Update** replaces data
 
 
-## Delete or Drop data
+**Syntax**
+
+`UPDATE 'table_name' SET 'column_name' = 'new_value' [WHERE condition];
+`
+
+
+### Update Examples
+
+**1.** Change Josh to Joe
+
+`update loans set name = 'Joe' where name= 'Josh'; `
+
+
+**2.** Revert back to Josh
+
+`update loans set name = 'Josh' where name= 'Joe';`
+
+
+**3.**  Change Joe's owed amount to **$2500**
+
+`update loans set amount = '$2500' where name= 'Joe';`
+
+
+**4.** Change Bob's owed amount to $5000
+
+`update loans set amount ='$5000' where name='Bob';`
+
+## Delete data
+
+To remove data you use **delete**
+
+**Syntax**
+
+```
+
+delete FROM 'table_name' [WHERE condition];
+
+```
+
+
+### Examples
+
+**1.** Delete where name is Bob
+
+`delete from loans where name='Bob';`
+
+![mysql13](https://github.com/sxcdennis/Linux-Guides/blob/master/images/mysql13.png?raw=true)
+
+
+**2.** Delete row where address is 123 fake st
+
+
+`delete from loans where address='123 fake st';`
+
+
+![mysql14](https://github.com/sxcdennis/Linux-Guides/blob/master/images/mysql14.png?raw=true)
+
+**3.** Delete row where amount is $2050.55
+
+`delete from loans where amount='$50,000';`
+
+
+[< Back: freeipa](https://github.com/sxcdennis/Linux-Guides/blob/master/freeipa.md "freeipa") | [Next: postfix >](https://github.com/sxcdennis/Linux-Guides/blob/master/postfix.md "postfix")

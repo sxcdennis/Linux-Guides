@@ -63,3 +63,11 @@ These are some guides for Linux (mainly in centOS & RHEL)
 - [dns](https://github.com/sxcdennis/Linux-Guides/blob/master/dns.md "dns")
 
 - [freeipa](https://github.com/sxcdennis/Linux-Guides/blob/master/freeipa.md "freeipa")
+
+- [mysql](https://github.com/sxcdennis/Linux-Guides/blob/master/mysql.md "mysql")
+
+- [postfix](https://github.com/sxcdennis/Linux-Guides/blob/master/postfix.md "postfix")
+
+- [PXE Server](https://github.com/sxcdennis/Linux-Guides/blob/master/pxe.md "pxe sever")
+
+- [kickstart](https://github.com/sxcdennis/Linux-Guides/blob/master/kickstart.md "kickstart")
