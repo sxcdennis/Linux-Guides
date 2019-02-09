@@ -9,7 +9,6 @@
 - Install NTP Server to Set Correct System Time: [Click Here](https://github.com/sxcdennis/Linux-Guides/blob/master/ntp.md "ntp")
 
 
-
 ## Installation Procedure
 
 To have a fully functional PXE Network Boot Server, you would need to install a few things: **dnsmsaq** , **syslinux**, and **ftp server** (we'll use **tftp**)
@@ -160,7 +159,7 @@ append initrd=centos7/initrd.img method=http://mirror.centos.org/centos/7/os/x86
 label 3
 menu label ^3) Install CentOS 7 x64 with Local Repo using VNC
 kernel centos7/vmlinuz
-append  initrd=centos7/initrd.img method=ftp://192.168.101.55/pub devfs=nomount inst.vnc inst.vncpassword=password
+append  initrd=centos7/initrd.img method=ftp://192.168.101.55/pub devfs=nomount
 
 label 4
 menu label ^4) Boot from local drive
@@ -168,7 +167,6 @@ menu label ^4) Boot from local drive
 ```
 As you can see CentOS 7 boot images (kernel and initrd) reside in a directory named **centos7** relative to **/var/lib/tftpboot** (on an absolute system path this would mean **/var/lib/tftpboot/centos7**) and the installer repositories can be reached by using FTP protocol on **192.168.101.55/pub** network location – in this case the repos are hosted locally because the IP address is the same as the PXE server address).
 
-Also menu **label 3** specifies that the client installation should be done from a remote location via **VNC** (here replace VNC **password** with a strong password) in case you install on a headless client and the menu label 2 specifies as installation sources a CentOS 7 official Internet mirror (this case requires an Internet connection available on client through DHCP and NAT).
 
 ## Add CentOS 7 Boot Images to PXE Server
 
