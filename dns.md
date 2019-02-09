@@ -3,7 +3,7 @@
 Domain Name System (DNS), translates hostnames or URLs into IP addresses. For example we type in www.google.com and the DNS server translates the domain name into associated IP address. Since IP addresses are hard to remebmer all the time, DNS servers are used to translate hostnames like www.google.com to 173.xxx.xx.xxx, so it's easier to remember instead of an IP address.
 
 
-This guide will help set up local DNS using CnetOS 7, but this should work for RHEL too.
+This guide will help set up local DNS using **Bind** on CENTOS 7, but this should work for RHEL too. There are other software such as **Unbound**, **Erl-DNS**, and **Dnsmasq**. 
 
 # DNS Server Install
 
